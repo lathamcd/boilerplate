@@ -1,0 +1,10 @@
+$myfont: Georgia 1.2em;
+$heading: Georgia 2.2em;
+$container_width: 700px;
+
+
+div.container {
+  margin: auto;
+  font: $myfont;
+  width: $container_width;
+}
