@@ -6,13 +6,48 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<div class="container">
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
+<div class="container__header">
+    <header>
+        <div class="logo">
+            <img src="images/ornl_horizontal_logo.png" alt="Oak Ridge National Laboratory">
+        </div>
+    <nav>
+        <ul>
+            <li><a href="">Link 1</a></li>
+            <li><a href="">Link 2</a></li>
+            <li><a href="">Link 3</a></li>
+        </ul>
+    </nav>
+    </header>
 </div>
+
+<div class="wrapper__grid">
+    <aside>
+        <p>This is a sidebar</p>
+    </aside>
+
+    <article class="content">
+        <h1>Main article area</h1>
+        <p>In this layout, we display the areas in source order for any screen less that 500 pixels wide. We go to a two column layout, and then to a three column layout by redefining the grid, and the placement of items on the grid.</p>
+    </article>
+
+    <section class="cards">
+        <div class="grid__card">
+            <div class="card">1</div>
+            <div class="card">2</div>
+            <div class="card">3</div>
+            <div class="card">4</div>
+            <div class="card">5</div>
+            <div class="card">6</div>
+            <div class="card">7</div>
+            <div class="card">8</div>
+            <div class="card">9</div>
+        </div>
+    </section>
+    <footer>
+        Footer
+    </footer>
+</div>
+
 </body>
 </html>
